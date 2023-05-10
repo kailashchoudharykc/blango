@@ -14,7 +14,8 @@
 {% endrow %}
 {% row %}
 {% endrow %}
-{% endblock %}
+{% include "blog/post-comments.html" %}
 {% col %}
   {% recent_posts post %}
 {% endcol %}
+{% endblock %}
